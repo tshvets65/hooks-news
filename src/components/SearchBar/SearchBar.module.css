@@ -1,0 +1,23 @@
+ .search_form {
+     padding: 0;
+     display: flex;
+ }
+ .search_form input[type="search"] {
+    -webkit-appearance: textfield;
+    border: none;
+    font-size: 10pt;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+
+  }
+
+.search_form .icon {
+    background-color: #ccc;
+    border-radius: 0 8px 8px 0;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    padding: 2px;
+    align-self: center;
+}

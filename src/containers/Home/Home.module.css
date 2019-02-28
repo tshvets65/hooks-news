@@ -1,0 +1,18 @@
+.error {
+    color: red;
+    font-weight: bold;
+  }
+
+  .loading_msg {
+    color: orangered;
+    font-weight: bold;
+  }
+
+  footer {
+    padding: 1em;
+    text-align: center;
+  }
+  footer span {
+    margin-right: 2em;
+    cursor: pointer;
+  }

@@ -1,0 +1,30 @@
+.comment {
+    margin-bottom: 1.5em;
+  }
+  .comment_user {
+    font-size: 0.7rem;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  .comment_content {
+    font-size: 0.8rem;
+    color: #333;
+  }
+  .comment_content :global(p) {
+    margin: 0;
+    margin-bottom: 0.5em;
+    word-wrap: break-word;
+  }
+  .comment_content :global(a) {
+    color: #f60;
+    text-decoration: underline;
+  }
+  .comment_content :global(pre) {
+    max-width: 100%;
+    overflow: scroll;
+  }
+  .nested_comments {
+    margin-top: 1em;
+    border-left: 1px solid rgba(0,0,0,0.1);
+    padding-left: 1em;
+  }
